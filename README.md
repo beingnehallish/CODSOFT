@@ -13,13 +13,11 @@ Welcome to the Web Development Internship Projects tasked by CodSoft! This repos
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Features](#features)
+  - [Prerequisites](#prerequisites)
+  - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Project Structure](#basic-common-project-structure)
+
 
 ## Getting Started
 
@@ -43,56 +41,19 @@ Welcome to the Web Development Internship Projects tasked by CodSoft! This repos
 3. Microsoft Word
 4. Canva
    
-## Project Structure
+## Basic Common Project Structure
 
+```bash
 project-name/
 │
 ├── public/
-│ ├── index.html
-│ ├── assets/
-│ │ ├── images/
-│ │ ├── styles/
-│ │ │ ├── main.css
-│ │ ├── scripts/
-│ │ ├── main.js
-│ └── favicon.ico
-│
-├── src/
-│ ├── components/
-│ │ ├── Header/
-│ │ │ ├── Header.js
-│ │ │ ├── Header.css
-│ │ ├── Footer/
-│ │ ├── Footer.js
-│ │ ├── Footer.css
-│ ├── pages/
-│ │ ├── Home/
-│ │ │ ├── Home.js
-│ │ │ ├── Home.css
-│ │ ├── About/
-│ │ ├── About.js
-│ │ ├── About.css
-│ ├── utils/
-│ ├── App.js
-│ ├── index.js
-│ └── index.css
-│
-├── server/ (if using a server-side component)
-│ ├── routes/
-│ ├── controllers/
-│ ├── models/
-│ └── server.js
-│
-├── database/ (if using a database)
-│
-├── tests/ (optional, for testing)
-│
-├── node_modules/
-├── package.json
-├── package-lock.json
-├── .gitignore
+│   ├── Index.html
+│   ├── assets/
+│   │   ├── Images/
+│   │   ├── styles/
+│   │   │   ├── Style.css
+│   │   ├── scripts/
+│   │       ├── script.js
 ├── README.md
-├── .env (environment variables, not to be committed)
-│
-└── (other configuration files)
+```
 
